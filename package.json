@@ -1,15 +1,19 @@
 {
   "name": "@tudelft/bluesky",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Javascript client for the BlueSky open-source ATM simulator",
-  "private": false,
   "exports": {
+    "import": "./src/index.js",
     "default": "./dist/bluesky.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node build.mjs"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TUDelft-CNS-ATM/bluesky-js.git"
